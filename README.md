@@ -12,7 +12,7 @@ By engaging with this repository and thus the content stored within it, you agre
 -  Prioritise your own work and jobs first; however, helping each other is massively encouraged so long as it does not impede your own work.
 -  Be ready to adapt to a changing climate and or new responsibilities.
   
--   in the end, just try and be a good teammate, please, and thank you!
+-   In the end, just try and be a good teammate, please, and thank you!
 
 Signed:
 -Sam Reading
