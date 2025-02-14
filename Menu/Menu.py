@@ -1,16 +1,14 @@
 import pygame
-import sys
-
 
 pygame.init()
 screen = pygame.display.set_mode((460, 750))
 clock = pygame.time.Clock()
+
 running = True
-MENU_MOUSE_POS_X = 0
-MENU_MOUSE_POS_Y = 0
 CLICK = False
 
 while running:
+
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
@@ -32,19 +30,21 @@ while running:
     COMPSCI_BUTTON_LARGE =pygame.transform.scale(COMPSCI_BUTTON,(420,69))
     screen.blit(COMPSCI_BUTTON_LARGE,(20,360))
     
-    MENU_MOUSE_POS = pygame.mouse.get_pos()
+
+
+
     for event in pygame.event.get():    
         if event.type == pygame.MOUSEBUTTONDOWN :
-            x = MENU_MOUSE_POS_X
-            y = MENU_MOUSE_POS_Y
+            MENU_MOUSE_POS = pygame.mouse.get_pos()
+            MENU_MOUSE_POS_X, MENU_MOUSE_POS_Y = MENU_MOUSE_POS
             CLICK = True
-            if ((CLICK == True) and (27 <= MENU_MOUSE_POS_X <= 434) and (207 <= MENU_MOUSE_POS_Y <= 265)):
+            if (CLICK == True) and (27 <= MENU_MOUSE_POS_X <= 434) and (207 <= MENU_MOUSE_POS_Y <= 265):
                 print("Maths")
         #print(pygame.mouse.get_pos())
         
         #27,207 / 434, 265
     
-    
+    CLICK = False
     pygame.display.flip()
 
     clock.tick(60)  
