@@ -1,3 +1,5 @@
+--This project is now legacy having been completed May 2025. The project will now be made public to be used as referencing material for all associates. Thanks team!--
+
 READ ME
 Rules And Commitments To This Project
 --------------------------------------------------------------------------------------------------------------------------------------------
@@ -20,5 +22,4 @@ Signed:
 -Oliver Simons (23051253)
 -Michael Brodrick
 
---This project is now legacy having been completed May 2025. The project will now be made public to be used as referencing material for all associates. Thanks team!--
 
